@@ -2,14 +2,13 @@
 // @name        Same Domain
 // @namespace   home
 // @version     1
-// @match http://*.ro/*
-// @match https://*.ro/*
-// @exclude https://*.com/*
-// @exclude http://*.com/*
-// @exclude https://*.org/*
-// @exclude http://*.org/*
-// @exclude https://*.tutanota.*/*
-// @exclude https:/tutanota.*/*
+// @include *.ro/*
+// @include *.curentul.net/*
+// @include *.gandul.info/*
+// @match *.ro/*
+// @exclude *.com/*
+// @exclude *.tutanota.*/*
+// @exclude *.protonmail.*/*
 // @grant       none
 // ==/UserScript==
 
