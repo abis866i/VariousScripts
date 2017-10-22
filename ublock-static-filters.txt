@@ -33,11 +33,13 @@ ro##a[href*="relatii-sex"]
 ||platform.twitter.com/widgets.js$third-party
 ||ro/*banner*
 ||ro/embed/*autoplay*$subdocument
+||ro/*/games/*
 ||ro/usr//widgets/*
 ||ro/usr/casete/*/ro-en-online-back.jpg$image
 ||ro/wp-content/uploads/*$image
 ||ro^$important,third-party
 ||st.chatango.com/h5/gz/*$subdocument
+||www.gsp.ro/assets/images/dicro.jpg
 ~realitatea.net##a[href*="realitatea.net"]
 ro##.a-cross
 ro##.a-social
@@ -45,6 +47,7 @@ ro##.a-tags
 ro##.additional-links
 ro##.article_cross
 ro##.article_thumb
+ro##.banda_video_mobile
 ro##.best-of
 ro##.blog-collection-listing
 ro##.blogsport
@@ -83,6 +86,7 @@ ro##.loto
 ro##.marquee-container
 ro##.mbl-nav-list
 ro##.mbl-subnav-list
+ro##.mg-bottom-20
 ro##.nav-box
 ro##.news-item-image
 ro##.newsman_subscribe_form
@@ -99,10 +103,12 @@ ro##.related_on_top
 ro##.related-posts
 ro##.screen
 ro##.scroll-jobs
+ro##.sidebar-box
 ro##.sidebar-secondary
 ro##.skin-card
 ro##.slides
 ro##.sondaj-parent
+ro##.sondaj
 ro##.sticky
 ro##.stire-asteptare
 ro##.stiri-nebune-hp
