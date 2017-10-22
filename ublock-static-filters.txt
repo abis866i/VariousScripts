@@ -3,7 +3,6 @@ ro##a[href*="/_b3.php"]
 ro##a[href*="/1e6media"]
 ro##a[href*="ads.winmasters.com"]
 ro##a[href*="anunturipenet"]
-ro##a[href*="comments"]
 ro##a[href*="disqus"]
 ro##a[href*="kombat"]
 ro##a[href*="live-blog"]
@@ -120,7 +119,6 @@ ro##.widget-white
 ro##.widgeta-social
 ro###bottom
 ro###bula-ultima-ora
-ro###comments
 ro###floating
 ro###footer
 ro###FOTOVIDEO
