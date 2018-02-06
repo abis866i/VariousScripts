@@ -9,6 +9,10 @@
 ||linkedin.com^$important,third-party
 ||pics.ebaystatic.com/aw/pics/de/layer.png$image
 ||platform.twitter.com/widgets.js$third-party
+||google.com/complete/*
+
+||com/wp-content/*banner*$image
+||com/wp-content/*exhibits/*.*$image
 
 
 com##[id*="right_col"]
@@ -70,8 +74,6 @@ ro##[class*="poll-form1"]
 ro##[class*="scroll-jobs"]
 ro##[class*="sidebar"]
 
-||com/wp-content/*banner*$image
-||com/wp-content/*exhibits/*.*$image
 
 ||ro/usr//widgets/*ponturi*
 ||ro/*/*-*.*$image
