@@ -11,11 +11,13 @@
 ||platform.twitter.com/widgets.js$third-party
 
 
+com##[id*="right_col"]
 com##[id*="poplist"]
 com##[id*="trending"]
 
+com##[class*="ai-slider"]
 com##[class*="aside-posts"]
-com##[class*="carousel"]
+com##[class*="box-favorites"]
 com##[class*="celebrities"]
 com##[class*="coupon"]
 com##[class*="games"]
@@ -25,7 +27,10 @@ com##[class*="nocontent"]
 com##[class*="popular"]
 com##[class*="promobox"]
 com##[class*="related-content"]
+com##[class*="right-col"]
 com##[class*="side-bar"]
+com##[class*="sponsor"]
+com##[class*="stubhub-js"]
 com##[class*="teaser"]
 com##[class*="trending"]
 
@@ -36,6 +41,7 @@ ro##a[href*="ads.winmasters.com"]
 ro##a[href*="anunturipenet"]
 ro##a[href*="disqus"]
 ro##a[href*="kombat"]
+ro##a[href*="lastH"]
 ro##a[href*="live-blog"]
 ro##a[href*="nxthost.io"]
 ro##a[href*="pariuri-sportive"]
