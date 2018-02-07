@@ -1,0 +1,57 @@
+matrix-off: about-scheme true
+matrix-off: behind-the-scene true
+matrix-off: chrome-extension-scheme true
+matrix-off: chrome-scheme true
+matrix-off: localhost true
+matrix-off: opera-scheme true
+matrix-off: protonmail.com true
+matrix-off: tutanota.com true
+referrer-spoof: * true
+ua-spoof: * true
+* 1st-party * allow
+* 1st-party frame allow
+* 4seeresults.com * block
+* beacon-4.newrelic.com * inherit
+* cbjs.e.shifen.com * block
+* dup.baidustatic.com * block
+* ecomcbjs.jomodns.com * block
+* ensighten.com * block
+* facebook.com * block
+* facebook.net * block
+* foreseeresults.com * block
+* google.com * block
+* googleapis.com * block
+* gstatic.com * block
+* js-agent.newrelic.com * inherit
+* newrelic.com * allow
+* nexus.ensighten.com * inherit
+amazon.com awsstatic.com * allow
+amazon.com images-amazon.com * allow
+amazon.com s3.amazonaws.com * allow
+aws.amazon.com awsstatic.com * allow
+aws.amazon.com s3.amazonaws.com * allow
+dealcatcher.com * * allow
+dealcatcher.com dealcatcher.com * inherit
+ebay.com ebaydesc.com * allow
+ebay.com ebayimg.com * allow
+ebay.com ebaystatic.com * allow
+facebook.com facebook.com * allow
+facebook.com fbstatic-a.akamaihd.net * allow
+firefox.com mozilla.net * allow
+github.com collector-cdn.github.com * inherit
+google.com ggpht.com * allow
+google.com google.com * inherit
+google.com googleusercontent.com * allow
+google.com gstatic.com * allow
+paypal.com paypalobjects.com * allow
+statefarm.com st8fm.com * allow
+youtube-nocookie.com googlevideo.com xhr allow
+youtube-nocookie.com ytimg.com * allow
+youtube.com apis.google.com * allow
+youtube.com apis.google.com frame allow
+youtube.com googlevideo.com * allow
+youtube.com plus.google.com * allow
+youtube.com plus.google.com frame allow
+youtube.com plus.googleapis.com * allow
+youtube.com plus.googleapis.com frame allow
+youtube.com ytimg.com * allow
