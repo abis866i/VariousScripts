@@ -32,8 +32,6 @@ com##[class*="popular"]
 com##[class*="promobox"]
 com##[class*="related-content"]
 com##[class*="right-col"]
-
-ro##[class*="sondaj"]
 com##[class*="sponsor"]
 com##[class*="stubhub-js"]
 com##[class*="teaser"]
@@ -85,6 +83,7 @@ ro##[class*="sondaj"]
 ||ro/usr//widgets/*$image
 ||ro/*banner*
 ||ro/assets/images/dicro.jpg
+||ro/assets/images/blank.gif$image
 ||ro/embed/*autoplay*$subdocument
 ||ro/*/games/*
 ||ro/usr/casete/*/ro-en-online-back.jpg$image
