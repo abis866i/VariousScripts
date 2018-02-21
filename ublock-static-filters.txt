@@ -15,7 +15,6 @@
 ||com/wp-content/*exhibits/*.*$image
 
 
-com##[id*="right_col"]
 com##[id*="poplist"]
 com##[id*="trending"]
 
@@ -30,7 +29,6 @@ com##[class*="nocontent"]
 com##[class*="popular"]
 com##[class*="promobox"]
 com##[class*="related-content"]
-com##[class*="right-col_____1"]
 com##[class*="sponsor"]
 com##[class*="stubhub-js"]
 com##[class*="teaser"]
