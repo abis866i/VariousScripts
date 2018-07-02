@@ -16,7 +16,7 @@ com##.carousel__content__item
 com##.carousel-medium-strip
 
 com##[class*="news-feed"]
-com##[class*="promo"]
+!com##[class*="promo"]
 com##[class*="share-button"]
 !com##[class*="sidebar"]
 com##[class*="tweet"]
