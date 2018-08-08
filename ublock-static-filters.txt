@@ -93,7 +93,7 @@ ro##[class*="parteneri"]
 ro##[class*="poll-form1"]
 !ro##[class*="read_more"]
 ro##[class*="scroll-jobs"]
-ro##[class*="sidebar"]
+!ro##[class*="sidebar"]
 ro##[class*="sondaj"]
 ro##.col-content2
 ro##.col-contentF
