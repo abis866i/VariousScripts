@@ -8,6 +8,7 @@
 ##[class*="most-popular"]
 ##[class*="promobox"]
 ##[class*="rail-item"]
+##[class*="strawberry"]
 ##[class*="teaser"]
 ##[class*="view-pane"]
 ##[class*="view-related"]
