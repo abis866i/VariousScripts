@@ -74,8 +74,6 @@ ro##.a-cross
 ro##a[href*="//abbp1"]
 ro##.a-meta
 
-||ro/assets/images/blank.gif$image
-||ro/assets/images/dicro.jpg
 ||ro/*banner*
 ||ro/embed/*autoplay*$subdocument
 ||ro/*/games/*
