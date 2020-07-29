@@ -41,7 +41,6 @@ com##.td-main-sidebar
 com##.trending-story
 com##.video-container
 
-||com/wp-content/*banner*$image
 ||com/wp-content/*exhibits/*.*$image
 ||deploy.static.akamaitechnologies.com^
 ||doubleclick.net^$important,third-party
@@ -66,7 +65,6 @@ net##[class*="banner"]
 net##.jw-icon-container
 
 ||org-apps.center^
-||pics.ebaystatic.com/aw/pics/de/layer.png$image
 ||platform.twitter.com/widgets.js$third-party
 
 !~realitatea.net##a[href*="realitatea.net"]
@@ -78,10 +76,7 @@ ro##.a-meta
 ||ro/embed/*autoplay*$subdocument
 ||ro/*/games/*
 ||ro^$important,third-party
-||ro/usr/casete/*/ro-en-online-back.jpg$image
-||ro/usr//widgets/*$image
 ||ro/usr//widgets/*ponturi*
-||ro/wp-content/uploads/*$image
 
 ro##[class*="anunturi"]
 ro##[class*="best-of"]
