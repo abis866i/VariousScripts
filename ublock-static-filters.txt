@@ -77,7 +77,6 @@ ro##.a-meta
 ||ro/*banner*
 ||ro/embed/*autoplay*$subdocument
 ||ro/*/games/*
-||ro/*/*-*.*$image
 ||ro^$important,third-party
 ||ro/usr/casete/*/ro-en-online-back.jpg$image
 ||ro/usr//widgets/*$image
