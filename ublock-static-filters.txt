@@ -1,6 +1,4 @@
-||*.adsrv.eacdn.com/*$subdocument
 ||analytics.google.com^$important,third-party
-||chatango.com/h5/gz/*$subdocument
 
 ##[class*="betarena"]
 ##[class*="flyout-container"]
@@ -16,7 +14,6 @@
 com##.carousel__content__item
 com##.carousel-medium-strip
 
-com##[class*="news-feed"]
 !com##[class*="promo"]
 com##[class*="share-button"]
 !com##[class*="sidebar"]
@@ -45,12 +42,11 @@ com##.video-container
 ||deploy.static.akamaitechnologies.com^
 ||doubleclick.net^$important,third-party
 ||facebook.com^$important,third-party
-||google-analytics.com^$important,third-party
 
-google.com##[class*="NJCQz-plXrk"]
 google.com##[class*="r_i"]
 google.com##[class*="r-i"]
 
+||google-analytics.com^$important,third-party
 ||google.com/complete/*
 ||googletagmanager.com^$important,third-party
 ||gravatar.com^$third-party
@@ -61,16 +57,9 @@ google.com##[class*="r-i"]
 ##.layout__utility
 
 ||linkedin.com^$important,third-party
-net##[class*="banner"]
-net##.jw-icon-container
-
-||org-apps.center^
 ||platform.twitter.com/widgets.js$third-party
 
 !~realitatea.net##a[href*="realitatea.net"]
-ro##.a-cross
-ro##a[href*="//abbp1"]
-ro##.a-meta
 
 ||ro/*banner*
 ||ro/embed/*autoplay*$subdocument
@@ -90,25 +79,20 @@ ro##[class*="gazeta-digitala"]
 ro##[class*="jsPoll"]
 ro##[class*="jurnalisport"]
 ro##[class*="parteneri"]
-ro##[class*="poll-form1"]
+ro##[class*="partner"]
+ro##[class*="poll-form"]
 !ro##[class*="read_more"]
 ro##[class*="scroll-jobs"]
 !ro##[class*="sidebar"]
 ro##[class*="sondaj"]
 
-ro##.col-content2
-ro##.col-contentF
-ro##.cross
-ro##.lastH
-ro##.most_read
-ro##.recomm
 ro##[src*="ponturi"]
-ro###footer_links
 
 ro##[href*="1e6media"]
 ro##[href*="acid"]
 ro##[href*="alarma"]
 ro##[href*="alte"]
+ro##[href*="anveloshop"]
 ro##[href*="atac"]
 ro##[href*="_b3.php"]
 ro##[href*="blog"]
@@ -141,6 +125,7 @@ ro##[href*="publicitate"]
 ro##[href*="reacti"]
 ro##[href*="rekze"]
 ro##[href*="relatii-sex"]
+ro##[href*="rcforfun"]
 ro##[href*="secret"]
 !ro##[href*="special"]
 ro##[href*="tabloid"]
@@ -153,4 +138,3 @@ ro##[href*="wow"]
 ro##[id*="recent_comments"]
 ro##[id*="ultima-ora"]
 
-www.eurosport.com##.storylist-container__popular-news-content
