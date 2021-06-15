@@ -1,19 +1,13 @@
-||analytics.google.com^$important,third-party
-
-##[class*="betarena"]
 ##[class*="flyout-container"]
 ##[class*="live-channel"]
 ##[class*="most-popular"]
 ##[class*="promobox"]
-##[class*="rail-item"]
-##[class*="strawberry"]
 ##[class*="teaser"]
-##[class*="view-pane"]
-##[class*="view-related"]
 
 com##.carousel__content__item
 com##.carousel-medium-strip
 
+com##[class*="facebook"]
 !com##[class*="promo"]
 com##[class*="share-button"]
 !com##[class*="sidebar"]
@@ -25,7 +19,6 @@ com##[href*="video-feeds"]
 com##[id*="carousel"]
 com##[id*="indices"]
 com##[id*="poplist"]
-com##[id*="trending"]
 
 com##.im_block
 com##.latest-news
@@ -51,7 +44,6 @@ google.com##[class*="r-i"]
 ||googletagmanager.com^$important,third-party
 ||gravatar.com^$third-party
 
-##[id*="sidebar-second"]
 ##[iframe*="facebook"]
 ##.layout__aside
 ##.layout__utility
@@ -112,13 +104,10 @@ ro##[href*="incendiar"]
 ro##[href*="indecent"]
 ro##[href*="interviu"]
 ro##[href*="kombat"]
-ro##[href*="lastH"]
 ro##[href*="legendar"]
 ro##[href*="live-blog"]
 ro##[href*="nostradamus"]
-ro##[href*="nxthost.io"]
 ro##[href*="pariuri"]
-ro##[href*="pariurix.com"]
 ro##[href*="poker"]
 ro##[href*="povest"]
 ro##[href*="publicitate"]
@@ -137,4 +126,3 @@ ro##[href*="winmasters"]
 ro##[href*="wow"]
 ro##[id*="recent_comments"]
 ro##[id*="ultima-ora"]
-
