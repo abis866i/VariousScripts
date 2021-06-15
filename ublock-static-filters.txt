@@ -1,9 +1,3 @@
-##[class*="flyout-container"]
-##[class*="live-channel"]
-##[class*="most-popular"]
-##[class*="promobox"]
-##[class*="teaser"]
-
 com##.carousel__content__item
 com##.carousel-medium-strip
 
