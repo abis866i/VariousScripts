@@ -48,7 +48,6 @@ google.com##[class*="r-i"]
 ||ro/*banner*
 ||ro/embed/*autoplay*$subdocument
 ||ro/*/games/*
-||ro^$important,third-party
 ||ro/usr//widgets/*ponturi*
 
 ro##[class*="anunturi"]
