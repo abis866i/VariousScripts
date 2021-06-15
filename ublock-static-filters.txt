@@ -73,6 +73,7 @@ ro##[src*="ponturi"]
 
 ro##[href*="1e6media"]
 ro##[href*="acid"]
+ro##[href*="advertorial"]
 ro##[href*="alarma"]
 ro##[href*="alte"]
 ro##[href*="anveloshop"]
