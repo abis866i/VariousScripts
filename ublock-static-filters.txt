@@ -45,8 +45,6 @@ google.com##[class*="r-i"]
 ||gravatar.com^$third-party
 
 ##[iframe*="facebook"]
-##.layout__aside
-##.layout__utility
 
 ||linkedin.com^$important,third-party
 ||platform.twitter.com/widgets.js$third-party
