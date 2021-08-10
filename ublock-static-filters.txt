@@ -53,8 +53,8 @@ google.com##[class*="r-i"]
 ||ro/*/games/*
 ||ro/usr//widgets/*ponturi*
 
-#ro##[id*="strawberry_sticky"]
-
+!ro##[id*="strawberry_sticky"]
+ro##[id*="pariu"]
 
 ro##[class*="anunturi"]
 ro##[class*="best-of"]
@@ -72,11 +72,11 @@ ro##[class*="loto"]
 ro##[class*="newsletter"]
 ro##[class*="notification"]
 ro##[class*="opinion"]
-ro##[id*="pariu"]
 ro##[class*="partner"]
 ro##[class*="poll"]
 ro##[class*="scroll-jobs"]
 ro##[class*="sondaj"]
+ro##[class*="statistics"]
 ro##[class*="weather"]
 
 !ro##[class*="read_more"]
@@ -181,6 +181,6 @@ ro##[id*="ultima-ora"]
 ||platform.twitter.com^$script,important
 ||yimg.com/rq/darla/*$important
 
-#||www.gstatic.com/_/mss/*$script,domain=google.com,important
+!||www.gstatic.com/_/mss/*$script,domain=google.com,important
 
 
