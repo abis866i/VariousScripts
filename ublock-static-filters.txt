@@ -1,18 +1,17 @@
 ##[href*="musk"]
 ##[src*="donati"]
 
-
 com##[class*="facebook"]
-!com##[class*="promo"]
 com##[class*="share-button"]
-!com##[class*="sidebar"]
 com##[class*="tweet"]
 com##[class*="twitter"]
 
-
+!com##[class*="promo"]
+!com##[class*="sidebar"]
 
 com##[href*="classified"]
 com##[href*="video-feeds"]
+
 com##[id*="carousel"]
 com##[id*="indices"]
 com##[id*="poplist"]
@@ -28,23 +27,43 @@ com##.td-main-sidebar
 com##.trending-story
 com##.video-container
 
+||adaptv.advertising.com^$important
+||apis.google.com^$domain=accounts.google.com,important
+||cdn.livechatinc.com^$script,important
+||cdninstagram.com^$important
 ||com/wp-content/*exhibits/*.*$image
 ||deploy.static.akamaitechnologies.com^
 ||doubleclick.net^$important,third-party
+||disqus.com^$important
+||doubleclick.net^$important
+||disquscdn.com^$important
+||edgecastcdn.net^$script,important
+||enetscores.com^$important
 ||facebook.com^$important,third-party
-
-google.com##[class*="r_i"]
-google.com##[class*="r-i"]
-
 ||google-analytics.com^$important,third-party
 ||google.com/complete/*
 ||googletagmanager.com^$important,third-party
 ||gravatar.com^$third-party
-
-##[iframe*="facebook"]
-
+||gstaticadssl.l.google.com^$important
+||gstatic.com/accounts/*$script,important
+||gstatic.com/feedback/*$script,important
+||google.com/_/DotsSplashUi/*$xhr,1p,important
+||google.com/topstories$important
+||idunic.ro^$important
 ||linkedin.com^$important,third-party
 ||platform.twitter.com/widgets.js$third-party
+||platform.twitter.com^$script,important
+||play.google.com^$important
+||revenuehunt.com^$important
+||www.startpage.com/suggestions*$important
+||yimg.com/rq/darla/*$important
+
+!||www.gstatic.com/_/mss/*$script,domain=google.com,important
+
+google.com##[class*="r_i"]
+google.com##[class*="r-i"]
+
+##[iframe*="facebook"]
 
 !~realitatea.net##a[href*="realitatea.net"]
 
@@ -53,8 +72,9 @@ google.com##[class*="r-i"]
 ||ro/*/games/*
 ||ro/usr//widgets/*ponturi*
 
-!ro##[id*="strawberry_sticky"]
 ro##[id*="pariu"]
+
+!ro##[id*="strawberry_sticky"]
 
 ro##[class*="anunturi"]
 ro##[class*="best-of"]
@@ -83,15 +103,13 @@ ro##[class*="scroll-jobs"]
 ro##[class*="sondaj"]
 ro##[class*="special-box"]
 ro##[class*="statistics"]
-!ro##[class*="top-10"]
 ro##[class*="topstory"]
 ro##[class*="video-box"]
 ro##[class*="weather"]
 
-
 !ro##[class*="read_more"]
 !ro##[class*="sidebar"]
-
+!ro##[class*="top-10"]
 
 ro##[src*="ponturi"]
 
@@ -169,28 +187,3 @@ ro##[id*="ultima-ora"]
 ||unibet.ro
 ||vdosupreme.com
 ||yoda.ro
-
-||adaptv.advertising.com^$important
-||cdninstagram.com^$important
-||disqus.com^$important
-||doubleclick.net^$important
-||disquscdn.com^$important
-||edgecastcdn.net^$script,important
-||enetscores.com^$important
-||apis.google.com^$domain=accounts.google.com,important
-||gstaticadssl.l.google.com^$important
-||ssl.gstatic.com/accounts/*$script,important
-||www.gstatic.com/feedback/*$script,important
-||google.com/_/DotsSplashUi/*$xhr,1p,important
-||google.com/topstories$important
-||idunic.ro^$important
-||play.google.com^$important
-||cdn.livechatinc.com^$script,important
-||revenuehunt.com^$important
-||www.startpage.com/suggestions*$important
-||platform.twitter.com^$script,important
-||yimg.com/rq/darla/*$important
-
-!||www.gstatic.com/_/mss/*$script,domain=google.com,important
-
-
