@@ -48,7 +48,7 @@ for(var i=0; i<links.length; i++) {
     var tmp = getDomain(links[i].href);
        if(tmp!=domainForPage){
            
-          links[i].style.parentElement.display = 'none';
+          links[i].parentElement.style.display = 'none';
        } 
     }
 }
