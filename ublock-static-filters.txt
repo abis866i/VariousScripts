@@ -1,3 +1,4 @@
+##[class*="sharing"]
 ##[href*="musk"]
 ##[src*="donati"]
 
@@ -16,17 +17,6 @@ com##[id*="carousel"]
 com##[id*="indices"]
 com##[id*="poplist"]
 
-com##.im_block
-com##.latest-news
-com##.pm-content
-com###right-rail
-com##.sidebar
-com##.spotlight
-com##.sticky-container
-com##.td-main-sidebar
-com##.trending-story
-com##.video-container
-
 ||adaptv.advertising.com^$important
 ||apis.google.com^$domain=accounts.google.com,important
 ||cdn.livechatinc.com^$script,important
@@ -42,6 +32,7 @@ com##.video-container
 ||facebook.com^$important,third-party
 ||google-analytics.com^$important,third-party
 ||google.com/complete/*
+||play.google.com^$important
 ||googletagmanager.com^$important,third-party
 ||gravatar.com^$third-party
 ||gstaticadssl.l.google.com^$important
@@ -53,7 +44,6 @@ com##.video-container
 ||linkedin.com^$important,third-party
 ||platform.twitter.com/widgets.js$third-party
 ||platform.twitter.com^$script,important
-||play.google.com^$important
 ||revenuehunt.com^$important
 ||www.startpage.com/suggestions*$important
 ||yimg.com/rq/darla/*$important
@@ -67,13 +57,7 @@ google.com##[class*="r-i"]
 
 !~realitatea.net##a[href*="realitatea.net"]
 
-||ro/*banner*
-||ro/embed/*autoplay*$subdocument
-||ro/*/games/*
-||ro/usr//widgets/*ponturi*
-
 ro##[id*="pariu"]
-
 !ro##[id*="strawberry_sticky"]
 
 ro##[class*="anunturi"]
