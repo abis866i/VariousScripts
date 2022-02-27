@@ -1,36 +1,46 @@
-matrix-off: about-scheme true
-matrix-off: behind-the-scene true
-matrix-off: chrome-extension-scheme true
-matrix-off: chrome-scheme true
-matrix-off: localhost true
-matrix-off: opera-scheme true
-matrix-off: protonmail.com true
-matrix-off: tutanota.com true
-referrer-spoof: * true
-ua-spoof: * true
-* 1st-party * allow
-* 1st-party frame allow
-* 4seeresults.com * block
 * beacon-4.newrelic.com * inherit
+* brandmetrics.com * block
+* brid.tv * block
+* cancan.ro * block
 * cbjs.e.shifen.com * block
+* cookielaw.org * block
+* cookiepro.com * block
+* demand.supply * block
+* detestais.xyz * block
+* disqus.com * block
 * dup.baidustatic.com * block
 * ecomcbjs.jomodns.com * block
+* ejobs.ro * block
+* enetscores.com * block
 * ensighten.com * block
 * facebook.com * block
 * facebook.net * block
 * foreseeresults.com * block
+* getshogun.com * block
 * google.com * block
 * googleapis.com * block
+* gravatar.com * block
 * gstatic.com * block
+* ibclick.stream * block
+* idunic.ro * block
+* internetbrands.com * block
 * js-agent.newrelic.com * inherit
+* jsdelivr.net * block
+* magnetcv.ro * block
 * newrelic.com * allow
 * nexus.ensighten.com * inherit
+* onnetwork.tv * block
+* play.google.com * block
+* s-onetag.com * block
+* sharethis.com * block
+* trustarc.com * block
+* twpasol.com * block
+* vi-serve.com * block
 amazon.com awsstatic.com * allow
 amazon.com images-amazon.com * allow
 amazon.com s3.amazonaws.com * allow
 aws.amazon.com awsstatic.com * allow
 aws.amazon.com s3.amazonaws.com * allow
-dealcatcher.com * * allow
 dealcatcher.com dealcatcher.com * inherit
 ebay.com ebaydesc.com * allow
 ebay.com ebayimg.com * allow
@@ -55,3 +65,4 @@ youtube.com plus.google.com frame allow
 youtube.com plus.googleapis.com * allow
 youtube.com plus.googleapis.com frame allow
 youtube.com ytimg.com * allow
+
