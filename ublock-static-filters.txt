@@ -1,11 +1,11 @@
+##[class*="share-button"]
 ##[class*="sharing"]
+##[class*="tweet"]
+##[class*="twitter"]
+##[class*="facebook"]
 ##[href*="musk"]
+##[iframe*="facebook"]
 ##[src*="donati"]
-
-com##[class*="facebook"]
-com##[class*="share-button"]
-com##[class*="tweet"]
-com##[class*="twitter"]
 
 !com##[class*="promo"]
 !com##[class*="sidebar"]
@@ -19,6 +19,7 @@ com##[id*="poplist"]
 
 ||accounts.google.com^$important
 ||adaptv.advertising.com^$important
+||affirm.com^$important
 ||bit.ly^$important
 ||brid.tv^$important
 ||cdn.ampproject.org^$important
@@ -51,16 +52,22 @@ com##[id*="poplist"]
 ||gstaticadssl.l.google.com^$important
 ||gstatic.com/accounts/*$script,important
 ||gstatic.com/feedback/*$script,important
+||idostream.com^$important
 ||idunic.ro^$important
 ||ive.zone^$important
 ||jokerswidget.org^$important
 ||linkedin.com^$important,third-party
+||livehelpnow.net^$important
 ||lowend.xyz^$important
 ||magnetcv.ro^$important
+||marketplace.digitalfirstmedia.com^$important
+||marketplace.medianewsgroup.com^$important
+||media.cancan.ro^$important
 ||newdmn.icu^$important
 ||nocdnrlly.xyz^$important
 ||onnetwork.tv^$important
 ||perfecte.ro^$important
+||pixlee.com^$important
 ||platform.twitter.com^$script,important
 ||platform.twitter.com/widgets.js$third-party
 ||play.google.com^$important
@@ -68,26 +75,26 @@ com##[id*="poplist"]
 ||revenuehunt.com^$important
 ||sunmedia.tv^$important
 ||swarm.video^$important
+||tribuna.ro/banners/*$1p
+||turnto.com^$important
 ||unibet.ro^$important
 ||vdosupreme.com^$important
+! ||www.gstatic.com/_/mss/*$script,domain=google.com,important
 ||www.startpage.com/suggestions*$important
 ||yimg.com/rq/darla/*$important
 ||yoda.ro^$important
 ||youtube.com/embed/*$domain=ro,important
 ||youtube-ui.l.google.com^$domain=ro,important
 
-
-!||www.gstatic.com/_/mss/*$script,domain=google.com,important
-
 google.com##[class*="r_i"]
 google.com##[class*="r-i"]
-
-##[iframe*="facebook"]
 
 !~realitatea.net##a[href*="realitatea.net"]
 
 ro##[id*="pariu"]
-!ro##[id*="strawberry_sticky"]
+ro##[id*="recent_comments"]
+ro##[id*="ultima-ora"]
+! ro##[id*="strawberry_sticky"]
 
 ro##[class*="anunturi"]
 ro##[class*="best-of"]
@@ -111,18 +118,17 @@ ro##[class*="opinion"]
 ro##[class*="partner"]
 ro##[class*="poll"]
 ro##[class*="pre-footer"]
+! ro##[class*="read_more"]
 ro##[class*="recommendation"]
 ro##[class*="scroll-jobs"]
+! ro##[class*="sidebar"]
 ro##[class*="sondaj"]
 ro##[class*="special-box"]
 ro##[class*="statistics"]
+! ro##[class*="top-10"]
 ro##[class*="topstory"]
 ro##[class*="video-box"]
 ro##[class*="weather"]
-
-!ro##[class*="read_more"]
-!ro##[class*="sidebar"]
-!ro##[class*="top-10"]
 
 ro##[src*="ponturi"]
 
@@ -164,7 +170,7 @@ ro##[href*="rekze"]
 ro##[href*="relatii-sex"]
 ro##[href*="rcforfun"]
 ro##[href*="secret"]
-!ro##[href*="special"]
+! ro##[href*="special"]
 ro##[href*="superbet"]
 ro##[href*="tabloid"]
 ro##[href*="/tags/"]
@@ -173,7 +179,3 @@ ro##[href*="trada"]
 ro##[href*="video"]
 ro##[href*="winmasters"]
 ro##[href*="wow"]
-ro##[id*="recent_comments"]
-ro##[id*="ultima-ora"]
-
-
